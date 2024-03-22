@@ -31,10 +31,10 @@
 
         num_pad {
             bindings = <
-&none  &none          &none     &none       &caps_word   &none    &kp LBKT   &kp N7   &kp N8     &kp N9  &kp RBKT  &none
-&none  &kp LG(LGUI)   &kp LALT  &kp LCTRL   &kp LSHFT    &none    &kp EQUAL  &kp N4   &kp N5     &kp N6  &kp SQT   &none
-&none  &kp BACKSPACE  &none     &kp K_COPY  &kp K_PASTE  &none    &kp GRAVE  &kp N1   &kp N2     &kp N3  &kp BSLH  &none
-                                &none       &none        &none    &kp N0     &kp DOT  &kp MINUS
+&none  &none          &none     &none      &caps_word  &none      &kp LBKT   &kp N7   &kp N8     &kp N9  &kp RBKT  &none
+&none  &kp LG(LGUI)   &kp LALT  &kp LCTRL  &kp LSHFT   &kp ESC    &kp EQUAL  &kp N4   &kp N5     &kp N6  &kp SQT   &none
+&none  &kp BACKSPACE  &none     &kp LG(C)  &kp LG(V)   &none      &kp MINUS  &kp N1   &kp N2     &kp N3  &kp BSLH  &none
+                                &none      &none       &none      &kp N0     &kp DOT  &kp GRAVE
             >;
         };
 
@@ -86,6 +86,15 @@
 &none  &kp F11  &kp F4  &kp F5  &kp F6  &none    &none  &kp LEFT_SHIFT  &none  &none  &none  &none
 &none  &kp F10  &kp F1  &kp F2  &kp F3  &none    &none  &none           &none  &none  &none  &none
                         &none   &none   &none    &none  &none           &none
+            >;
+        };
+
+        win-manager {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none  &none
             >;
         };
     };
